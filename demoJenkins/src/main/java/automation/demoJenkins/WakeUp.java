@@ -1,8 +1,10 @@
 package automation.demoJenkins;
 
-public class WakeUp {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class WakeUp {
+	@Test
+	public  void main() {
 		System.out.println("Woke Up");
 
 	}

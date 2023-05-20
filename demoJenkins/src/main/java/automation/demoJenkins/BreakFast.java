@@ -1,8 +1,10 @@
 package automation.demoJenkins;
 
-public class BreakFast {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class BreakFast {
+@Test
+	public void main() {
 		// TODO Auto-generated method stub
 		System.out.println("Ate breakfast");
 

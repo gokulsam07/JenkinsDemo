@@ -1,8 +1,10 @@
 package automation.demoJenkins;
 
-public class Brush {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Brush {
+	@Test
+	public  void main() {
 		// TODO Auto-generated method stub
 System.out.println("Brushed");
 	}
